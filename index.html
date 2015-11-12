@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		
+
+		<meta name="viewport" content="width=device-width, minimun-scale=1, maximun-sclae=1">
+
+		
+
+
+
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css"/>
+
+		 <!--<link rel="stylesheet" href="css/themes/my-custom-theme.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />-->
+
+		<link rel="stylesheet" href="themes/segundoproyecto.css">
+		
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+
+		<title>Mi empresa</title>
+	</head>
+
+	<body>
+		<!--PÁGINA DE INICIO -->
+		<section id="inicio" data-role="page">
+			<header data-role="header">
+				<h1>Mi empresa</h1>
+			</header>
+			<article data-role="content" data-theme="a">
+				<h2>Bienvenido</h2>
+			</article>
+
+			<footer data-role="footer" data-position="fixed">
+				<nav data-role="navbar">
+					<ul>
+						<li><a href="#inicio" data-icon="home">Home</a></li>
+						<li><a href="#nosotros" data-icon="star">Nosotros</a></li>
+						<li><a href="#contacto" data-icon="gear">Contacto</a></li>
+					</ul>
+				</nav>
+			</footer>
+			
+		</section>
+
+
+		<!--PÁGINA NOSOTROS -->
+		<section id="nosotros" data-role="page">
+			<header data-role="header">
+				<h1>Mi empresa</h1>
+			</header>
+			<article data-role="content" data-theme="a">
+
+				<div data-role="collapsible-set">
+					<div data-role="collapsible" data-collapsed="false">
+						<h3>Descripción</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div data-role="collapsible">
+						<h3>Productos</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div data-role="collapsible">
+						<h3>Servicios</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+
+			</article>
+
+			<footer data-role="footer" data-position="fixed">
+				<nav data-role="navbar">
+					<ul>
+						<li><a href="#inicio" data-icon="home">Home</a></li>
+						<li><a href="#nosotros" data-icon="star">Nosotros</a></li>
+						<li><a href="#contacto" data-icon="gear">Contacto</a></li>
+					</ul>
+				</nav>
+			</footer>
+			
+		</section>
+
+
+		<!--PÁGINA DE CONTACTO -->
+		<section id="contacto" data-role="page">
+			<header data-role="header">
+				<h1>Mi empresa</h1>
+			</header>
+			<article data-role="content" data-theme="a">
+				<form name="consulta" action="enviar.php" method="post">
+					<input name="nombre" id="nombre" type="text" placeholder="Nombre"/>
+					<input name="correo" id="correo" type="email" placeholder="Correo electrónico"/>
+					<textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escribe aquí tu comentario"></textarea>
+					<div class="ui-grid-a">
+						<div class="ui-block-a"><input type="submit" value="Enviar"/>
+					</div>
+						<div class="ui-block-b"><input type="reset" value="Borrar"/></div>
+					</div>
+
+				</form>
+			</article>
+
+			<footer data-role="footer" data-position="fixed">
+				<nav data-role="navbar">
+					<ul>
+						<li><a href="#inicio" data-icon="home">Home</a></li>
+						<li><a href="#nosotros" data-icon="star">Nosotros</a></li>
+						<li><a href="#contacto" data-icon="gear">Contacto</a></li>
+					</ul>
+				</nav>
+			</footer>
+			
+		</section>
+	</body>
+</html>
